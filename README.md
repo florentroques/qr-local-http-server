@@ -4,8 +4,10 @@ A simple local HTTP server that displays a QR code for easy access from your pho
 
 ## Installation
 
+Run directly from GitHub without installing:
+
 ```bash
-npm install -g qr-local-http-server
+npx github:florentroques/qr-local-http-server
 ```
 
 ## Usage
