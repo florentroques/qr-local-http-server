@@ -1,0 +1,21 @@
+{
+  "name": "qr-local-http-server",
+  "version": "1.0.0",
+  "description": "Local HTTP server with QR code for LAN access",
+  "bin": {
+    "qr-local-http-server": "./bin/cli.js"
+  },
+  "main": "./bin/cli.js",
+  "type": "module",
+  "files": [
+    "bin/"
+  ],
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["http-server", "qr-code", "local", "lan"],
+  "license": "MIT"
+}
